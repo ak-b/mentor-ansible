@@ -5,7 +5,15 @@ This repository is for training and mentorship for new joiners and enthusiasts.L
 [link]
 (https://dzone.com/articles/part-1-getting-started-ansible)
 
-#Installation and Setup
+# Installation and Setup
 https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installation-guide
+ > sudo python get-pip.py
+ > python -m pip install --user ansible
 
-#Packaging and Directory Structure
+Within virtual environment
+$ python -m virtualenv ansible  # Create a virtualenv if one does not already exist
+$ source ansible/bin/activate   # Activate the virtual environment
+$ python -m pip install ansible
+
+
+# Packaging and Directory Structure
